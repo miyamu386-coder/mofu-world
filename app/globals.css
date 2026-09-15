@@ -24,3 +24,113 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* ========================================
+   Mofu World
+======================================== */
+
+.mofu-world {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dff4ff;
+  overflow: hidden;
+}
+
+.mofu-world-stage {
+  position: relative;
+  width: min(100vw, 1536px);
+}
+
+.mofu-world-background {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* ========================================
+   Mofu World - Characters
+======================================== */
+
+.mofu-world-stage {
+  position: relative;
+  width: min(100vw, 1536px);
+}
+
+.mofu-world-background {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.world-character {
+  position: absolute;
+  height: auto;
+  object-fit: contain;
+  z-index: 2;
+}
+
+/* モフ */
+.mofu {
+  width: 16%;
+  left: 20%;
+  bottom: 12%;
+}
+
+/* メカモフ */
+.mecha-mofu {
+  width: 13%;
+  right: 17%;
+  bottom: 13%;
+}
+
+/* ひなちゃん */
+.hina {
+  width: 11%;
+  left: 46%;
+  bottom: 17%;
+}
+
+/* お母さん */
+.hina-mama {
+  width: 14%;
+  left: 32%;
+  bottom: 20%;
+}
+
+/* お父さん */
+.hina-papa {
+  width: 14%;
+  left: 56%;
+  bottom: 18%;
+}
+/* ========================================
+   Mofu World - BGM
+======================================== */
+
+.bgm-button {
+  position: absolute;
+  top: 4%;
+  right: 3%;
+  z-index: 10;
+
+  padding: 10px 16px;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.82);
+  color: #555;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+}
+
+.bgm-button.playing {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.bgm-button:hover {
+  transform: scale(1.05);
+}
