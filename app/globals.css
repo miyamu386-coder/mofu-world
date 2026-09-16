@@ -51,17 +51,6 @@ body {
    Mofu World - Characters
 ======================================== */
 
-.mofu-world-stage {
-  position: relative;
-  width: min(100vw, 1536px);
-}
-
-.mofu-world-background {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .world-character {
   position: absolute;
   height: auto;
@@ -92,16 +81,16 @@ body {
 
 /* お母さん */
 .hina-mama {
-  width: 14%;
-  left: 32%;
-  bottom: 20%;
+  width: 7%;
+  left: 34%;
+  bottom: 48%;
 }
 
 /* お父さん */
 .hina-papa {
-  width: 14%;
-  left: 56%;
-  bottom: 18%;
+  width: 8%;
+  left: 49%;
+  bottom: 47%;
 }
 /* ========================================
    Mofu World - BGM

@@ -58,13 +58,13 @@ export default function MofuWorldStage() {
       />
 
       <img
-        src="/images/characters/hina-mama.png"
+        src="/images/characters/hina-mama-sitting.png"
         alt="ひなちゃんのお母さん"
         className="world-character hina-mama"
       />
 
       <img
-        src="/images/characters/hina-papa.png"
+        src="/images/characters/hina-papa-sitting.png"
         alt="ひなちゃんのお父さん"
         className="world-character hina-papa"
       />
