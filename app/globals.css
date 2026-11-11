@@ -123,3 +123,156 @@ body {
 .bgm-button:hover {
   transform: scale(1.05);
 }
+/* ========================================
+   Mofu World - Character Buttons
+======================================== */
+
+.world-character-button {
+  position: absolute;
+  height: auto;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  z-index: 2;
+  transition: transform 0.2s ease;
+}
+
+.world-character-button:hover {
+  transform: scale(1.06);
+}
+
+.world-character-button:focus-visible {
+  outline: 3px solid #ff9eb5;
+  border-radius: 12px;
+}
+
+.world-character-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ========================================
+   Character Modal
+======================================== */
+
+.character-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.character-modal {
+  position: relative;
+  width: min(100%, 380px);
+  padding: 28px 24px;
+  border-radius: 24px;
+
+  background: #fffdf8;
+  color: #333;
+  text-align: center;
+
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.character-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+
+  border: none;
+  background: transparent;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.character-modal-image {
+  display: block;
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  margin: 0 auto 12px;
+}
+
+.character-modal h2 {
+  margin-bottom: 12px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.character-modal p {
+  margin-bottom: 24px;
+  line-height: 1.7;
+}
+
+.character-detail-button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 999px;
+
+  background: #ff9eb5;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+/* ========================================
+   Mofu World - Character Detail Page
+======================================== */
+
+.character-detail-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #dff4ff;
+}
+
+.character-detail-card {
+  width: min(100%, 600px);
+  padding: 32px;
+  border-radius: 28px;
+  background: #fffdf8;
+  color: #333;
+  text-align: center;
+}
+
+.character-back-link {
+  display: block;
+  margin-bottom: 20px;
+  color: #555;
+  text-align: left;
+  text-decoration: none;
+}
+
+.character-back-link:hover {
+  text-decoration: underline;
+}
+
+.character-detail-image {
+  display: block;
+  width: min(100%, 300px);
+  height: 300px;
+  object-fit: contain;
+  margin: 0 auto 20px;
+}
+
+.character-detail-card h1 {
+  margin-bottom: 16px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.character-detail-card p {
+  line-height: 1.9;
+  font-size: 16px;
+}
