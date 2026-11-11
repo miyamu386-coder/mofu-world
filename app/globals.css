@@ -299,3 +299,43 @@ body {
     object-fit: fill;
   }
 }
+/* ========================================
+   Mofu World - Mobile Character Layout
+======================================== */
+
+@media (max-width: 767px) {
+  /* モフ */
+  .mofu {
+    width: 20%;
+    left: 18%;
+    bottom: 11%;
+  }
+
+  /* メカモフ */
+  .mecha-mofu {
+    width: 17%;
+    right: 14%;
+    bottom: 11%;
+  }
+
+  /* ひなちゃん */
+  .hina {
+    width: 15%;
+    left: 44%;
+    bottom: 17%;
+  }
+
+  /* お母さん */
+  .hina-mama {
+    width: 10%;
+    left: 32%;
+    bottom: 47%;
+  }
+
+  /* お父さん */
+  .hina-papa {
+    width: 11%;
+    left: 50%;
+    bottom: 47%;
+  }
+}
