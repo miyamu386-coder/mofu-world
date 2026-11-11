@@ -24,6 +24,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
 /* ========================================
    Mofu World
 ======================================== */
@@ -47,6 +48,7 @@ body {
   width: 100%;
   height: auto;
 }
+
 /* ========================================
    Mofu World - Characters
 ======================================== */
@@ -92,6 +94,7 @@ body {
   left: 49%;
   bottom: 47%;
 }
+
 /* ========================================
    Mofu World - BGM
 ======================================== */
@@ -123,6 +126,7 @@ body {
 .bgm-button:hover {
   transform: scale(1.05);
 }
+
 /* ========================================
    Mofu World - Character Buttons
 ======================================== */
@@ -224,6 +228,7 @@ body {
   font-weight: 700;
   text-decoration: none;
 }
+
 /* ========================================
    Mofu World - Character Detail Page
 ======================================== */
@@ -276,6 +281,7 @@ body {
   line-height: 1.9;
   font-size: 16px;
 }
+
 /* ========================================
    Mofu World - Mobile Full Screen
 ======================================== */
@@ -299,11 +305,13 @@ body {
     object-fit: fill;
   }
 }
+
 /* ========================================
    Mofu World - Mobile Character Layout
 ======================================== */
 
 @media (max-width: 767px) {
+
   /* モフ */
   .mofu {
     width: 20%;
@@ -322,20 +330,20 @@ body {
   .hina {
     width: 15%;
     left: 44%;
-    bottom: 17%;
+    bottom: 12%;
   }
 
   /* お母さん */
   .hina-mama {
     width: 10%;
-    left: 32%;
-    bottom: 47%;
+    left: 29%;
+    bottom: 51%;
   }
 
   /* お父さん */
   .hina-papa {
     width: 11%;
-    left: 50%;
-    bottom: 47%;
+    left: 47%;
+    bottom: 51%;
   }
 }
