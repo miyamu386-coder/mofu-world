@@ -347,3 +347,77 @@ body {
     bottom: 49%;
   }
 }
+/* ========================================
+   Character Detail Profile
+======================================== */
+
+.character-profile-list {
+  width: 100%;
+  max-width: 480px;
+  margin: 32px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.character-profile-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 14px 18px;
+  background: #fff7f9;
+  border-radius: 14px;
+  text-align: left;
+}
+
+.character-profile-label {
+  flex: 0 0 130px;
+  font-weight: 700;
+  color: #b85c79;
+}
+
+.character-profile-value {
+  flex: 1;
+  color: #444;
+  overflow-wrap: anywhere;
+}
+
+.character-introduction {
+  margin: 32px auto 0;
+  padding: 20px;
+  max-width: 480px;
+  border-radius: 18px;
+  background: #ffe5ee;
+  color: #a04465;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.8;
+}
+
+@media (max-width: 480px) {
+  .character-profile-item {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .character-profile-label {
+    flex-basis: auto;
+  }
+}
+/* ========================================
+   Character Ruby
+======================================== */
+
+.character-modal ruby,
+.character-detail-card ruby {
+  ruby-position: over;
+  ruby-align: center;
+}
+
+.character-modal rt,
+.character-detail-card rt {
+  font-size: 0.45em;
+  font-weight: 500;
+  line-height: 1;
+}

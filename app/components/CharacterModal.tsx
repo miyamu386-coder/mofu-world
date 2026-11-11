@@ -54,7 +54,31 @@ export default function CharacterModal({
           className="character-modal-image"
         />
 
-        <h2>{character.name}</h2>
+        <h2>
+          {character.id === "hina-mama" ? (
+            <>
+              <ruby>
+                夢乃崎
+                <rt>ゆめのさき</rt>
+              </ruby>
+              {" さくら"}
+            </>
+          ) : character.familyRuby && character.givenRuby ? (
+            <>
+              <ruby>
+                夢乃崎
+                <rt>{character.familyRuby}</rt>
+              </ruby>
+              {" "}
+              <ruby>
+                {character.name.split(" ")[1]}
+                <rt>{character.givenRuby}</rt>
+              </ruby>
+            </>
+          ) : (
+            character.name
+          )}
+        </h2>
 
         <p>{character.shortDescription}</p>
 
