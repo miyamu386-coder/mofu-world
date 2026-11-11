@@ -49,11 +49,17 @@ export default function MofuWorldStage() {
       {/* ========================================
           お庭の背景
       ======================================== */}
-      <img
-        src="/images/garden.png"
-        alt="モフワールドのお庭"
-        className="mofu-world-background"
-      />
+     <picture>
+  <source
+    media="(max-width: 767px)"
+    srcSet="/images/garden-mobile.png"
+  />
+  <img
+    src="/images/garden.png"
+    alt="モフワールドのお庭"
+    className="mofu-world-background"
+  />
+</picture>
 
       {/* ========================================
           キャラクター5体
